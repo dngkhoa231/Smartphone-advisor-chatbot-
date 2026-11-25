@@ -1,0 +1,233 @@
+[
+  {
+    "test_id": 1,
+    "question": "Hiệu năng chiến game thực tế của dòng máy cao cấp iPhone 17 Pro Max?",
+    "expected_answer": "Sự kết hợp giữa vi xử lý A19 Pro dung lượng RAM 12GB và màn hình quét 120Hz giúp thiết bị dễ dàng xử lý hoàn hảo mọi trò chơi đồ họa nặng nhất.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 2,
+    "question": "Khả năng đáp ứng các tác vụ quay chụp chỉnh sửa chuyên nghiệp của iPhone 17 Pro Max?",
+    "expected_answer": "Hệ thống 3 camera độ phân giải cao 48MP cùng chip xử lý hình ảnh tối tân cực kỳ hoàn hảo cho những ai cần làm nội dung video chuyên sâu.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 3,
+    "question": "Dòng máy flagship thế hệ mới Samsung Galaxy S26 xài chip và RAM gì?",
+    "expected_answer": "Samsung Galaxy S26 tại Việt Nam dùng chip Exynos 2600, RAM 12GB.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://www.samsung.com/vn/smartphones/galaxy-s26/"
+  },
+  {
+    "test_id": 4,
+    "question": "Kích thước hiển thị và tần số làm tươi màn hình của Samsung S26?",
+    "expected_answer": "Mẫu máy sở hữu không gian hiển thị rộng 6.3 inch sử dụng công nghệ tấm nền cao cấp Dynamic AMOLED 2X cùng tần số quét mượt 120Hz.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 5,
+    "question": "Thông số độ phân giải các camera tích hợp trên Samsung Galaxy S26?",
+    "expected_answer": "Máy sở hữu cụm 3 camera sau đa tiêu cự bao gồm ống kính chính góc rộng và camera tele bổ trợ kết hợp cùng camera trước độ phân giải 12MP.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 6,
+    "question": "Người mua mẫu máy Samsung S26 tiêu chuẩn có những bản bộ nhớ nào?",
+    "expected_answer": "Dòng máy mang đến cho người dùng hai lựa chọn không gian bộ nhớ lưu trữ trong quen thuộc bao gồm dung lượng 256GB và 512GB.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 7,
+    "question": "Giá bán chính thức của dòng điện thoại Samsung Galaxy S26 là bao nhiêu?",
+    "expected_answer": "Mức giá của máy sẽ phụ thuộc vào thời điểm mở bán và từng đại lý phân phối cụ thể nên cần cập nhật liên tục tại quầy tư vấn.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 8,
+    "question": "Cấu hình phần cứng lõi trang bị trên chiếc máy Samsung Galaxy S26+?",
+    "expected_answer": "Samsung Galaxy S26+ tại Việt Nam dùng chip Exynos 2600, RAM 12GB.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://www.samsung.com/vn/smartphones/galaxy-s26/"
+  },
+  {
+    "test_id": 9,
+    "question": "Dòng điện thoại phân khúc phổ thông Redmi Note 15 là loại thiết bị gì vậy shop?",
+    "expected_answer": "Đây là smartphone Redmi thuộc Xiaomi hướng đến phân khúc phổ thông cận trung cấp",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 10,
+    "question": "Thương hiệu Xiaomi định vị mẫu Redmi Note 15 ở phân khúc nào?",
+    "expected_answer": "Đây là smartphone Redmi thuộc Xiaomi hướng đến phân khúc phổ thông cận trung cấp",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 11,
+    "question": "Hãng Xiaomi chính thức công bố ra mắt sản phẩm Redmi Note 15 vào ngày nào?",
+    "expected_answer": "Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://www.mi.com/vn/support/faq/details/KA-655859/"
+  },
+  {
+    "test_id": 12,
+    "question": "redmi note 15 ra mat nam nao the ad?",
+    "expected_answer": "Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://www.mi.com/vn/support/faq/details/KA-655859/"
+  },
+  {
+    "test_id": 13,
+    "question": "Dòng máy Redmi Note 15 khi phân phối có các biến thể kết nối mạng nào",
+    "expected_answer": "Có Redmi Note 15 và Redmi Note 15 5G",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 14,
+    "question": "Mẫu điện thoại Redmi Note 15 gồm những bản mạng nào?",
+    "expected_answer": "Có Redmi Note 15 và Redmi Note 15 5G",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 15,
+    "question": "Mua chiếc Redmi Note 15 bản chạy mạng 4G thì có những màu sắc lựa chọn nào?",
+    "expected_answer": "Bản 4G có các màu như Đen Xanh Băng và Tím Khói",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 16,
+    "question": "pin cua ip15 thuong bao nhieu mah?",
+    "expected_answer": "iPhone 15 có dung lượng pin khoảng 3.349mAh.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 17,
+    "question": "iPhone 15 phân phối chính thức gồm những tùy chọn dung lượng lưu trữ nào?",
+    "expected_answer": "iPhone 15 có các phiên bản 128GB 256GB và 512GB.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 18,
+    "question": "ip15 co nhung ban dung luong nao?",
+    "expected_answer": "iPhone 15 có các phiên bản 128GB 256GB và 512GB.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 19,
+    "question": "Điểm nâng cấp phân khúc lớn nhất giữa iPhone 15 Plus so với iPhone 15?",
+    "expected_answer": "iPhone 15 và iPhone 15 Plus cùng dùng A16 Bionic. iPhone 15 có màn hình 6,1 inch; iPhone 15 Plus có màn hình 6,7 inch. Apple công bố thời gian xem video tối đa lần lượt 20 và 26 giờ; đây là số liệu hãng, không phải phép đo của nhóm.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://support.apple.com/vi-vn/111830"
+  },
+  {
+    "test_id": 20,
+    "question": "ip15 plus khac gi so voi ip15 tieu chuan?",
+    "expected_answer": "iPhone 15 và iPhone 15 Plus cùng dùng A16 Bionic. iPhone 15 có màn hình 6,1 inch; iPhone 15 Plus có màn hình 6,7 inch. Apple công bố thời gian xem video tối đa lần lượt 20 và 26 giờ; đây là số liệu hãng, không phải phép đo của nhóm.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": "https://support.apple.com/vi-vn/111830"
+  },
+  {
+    "test_id": 21,
+    "question": "Màn hình hiển thị mặt trước của iPhone 15 Pro có hỗ trợ tần số quét mượt 120Hz không?",
+    "expected_answer": "Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 22,
+    "question": "iphone 15 pro man hinh quet bao nhieu Hz?",
+    "expected_answer": "Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 23,
+    "question": "Thông số độ phân giải cụm 3 camera sau trên mẫu iPhone 15 Pro?",
+    "expected_answer": "iPhone 15 Pro có camera chính 48MP camera góc siêu rộng 12MP và camera telephoto 12MP.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 24,
+    "question": "Cụm ống kính phía sau của iPhone 15 Pro camera thông số thế nào?",
+    "expected_answer": "iPhone 15 Pro có camera chính 48MP camera góc siêu rộng 12MP và camera telephoto 12MP.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 25,
+    "question": "Cày game nặng trên iPhone 15 Pro mượt và ổn định khung hình không shop?",
+    "expected_answer": "Có. A17 Pro RAM 8GB và màn hình 120Hz giúp máy phù hợp với các game yêu cầu hiệu năng cao.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 26,
+    "question": "ip15 pro hnay gia bao nhieu tiền?",
+    "expected_answer": "Giá phụ thuộc vào dung lượng và tình trạng hàng. Với máy mới giá tham khảo cần được cập nhật theo thời điểm bán.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 27,
+    "question": "Siêu phẩm cao cấp nhất Samsung Galaxy S26 Ultra sử dụng dòng chip xử lý gì và RAM tối đa bao nhiêu?",
+    "expected_answer": "Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy RAM 12GB (bản 1TB có RAM 16GB).",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 28,
+    "question": "Cấu hình vi xử lý chính thức của chiếc Samsung S26 Ultra?",
+    "expected_answer": "Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy RAM 12GB (bản 1TB có RAM 16GB)",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 29,
+    "question": "Màn hình Dynamic AMOLED 2X của Samsung S26 Ultra rộng mấy inch và tích hợp tính năng gì mới?",
+    "expected_answer": "Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch tần số quét 120Hz có tính năng Privacy Display tích hợp.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 30,
+    "question": "Màn hình hiển thị chống nhìn trộm Privacy Display được trang bị trên điện thoại nào?",
+    "expected_answer": "Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch tần số quét 120Hz có tính năng Privacy Display tích hợp.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 31,
+    "question": "Thông số chi tiết độ phân giải của cụm 4 camera sau trên siêu phẩm Samsung S26 Ultra?",
+    "expected_answer": "Samsung Galaxy S26 Ultra có camera chính 200MP kèm camera góc siêu rộng và 2 camera tele (zoom quang 3x và 5x) camera trước 12MP.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 32,
+    "question": "Cấu hình chip khủng kết hợp camera 200MP giúp Samsung S26 Ultra xử lý tốt các tác vụ gaming nặng và chụp ảnh chuyên sâu không?",
+    "expected_answer": "Có. Chip Snapdragon 8 Elite Gen 5 RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  },
+  {
+    "test_id": 33,
+    "question": "Mua Samsung S26 Ultra về làm máy cày game đồ họa nặng kết hợp quay phim chuyên nghiệp ổn không?",
+    "expected_answer": "Có. Chip Snapdragon 8 Elite Gen 5 RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu.",
+    "review_status": "chua_cham_doc_lap",
+    "reference_url": ""
+  }
+]

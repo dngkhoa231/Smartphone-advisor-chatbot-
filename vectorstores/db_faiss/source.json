@@ -1,0 +1,6 @@
+{
+  "source_sha256": "84cd633063598039ccca98c8237a1ae0d9255f105f05936b839fdf0e833a902e",
+  "embedding_model": "all-MiniLM-L6-v2.gguf2.f16.gguf",
+  "document_count": 781,
+  "incomplete": []
+}

@@ -1,0 +1,13 @@
+{
+  "source_sha256": "84cd633063598039ccca98c8237a1ae0d9255f105f05936b839fdf0e833a902e",
+  "complete_pairs": 781,
+  "incomplete_pairs": 0,
+  "rows_with_reference": 168,
+  "rows_without_reference": 613,
+  "recognized_phone_variants": 85,
+  "conflicting_duplicate_rows": [],
+  "phones_missing_core_topics": 30,
+  "test_questions": 33,
+  "test_exact_question_overlap": [],
+  "interpretation": "Topic coverage is detected from question text. A URL does not establish factual correctness or current pricing. Test overlap describes retrieval regression, not unseen-question accuracy."
+}

@@ -1,0 +1,140 @@
+﻿test_id,question,expected_answer,actual_answer,source_rows,reference_urls,duration_seconds,error,requested_llm,exact_text_match
+1,Hiệu năng chiến game thực tế của dòng máy cao cấp iPhone 17 Pro Max?,Sự kết hợp giữa vi xử lý A19 Pro dung lượng RAM 12GB và màn hình quét 120Hz giúp thiết bị dễ dàng xử lý hoàn hảo mọi trò chơi đồ họa nặng nhất.,"Có. A19 Pro, RAM 12GB và màn hình 120Hz giúp iPhone 17 Pro Max phù hợp với game nặng. Khi chơi trong thời gian dài, nhiệt độ và thời lượng pin vẫn phụ thuộc vào game, thiết lập đồ họa và môi trường sử dụng. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.",38,,0.002,,False,False
+2,Khả năng đáp ứng các tác vụ quay chụp chỉnh sửa chuyên nghiệp của iPhone 17 Pro Max?,Hệ thống 3 camera độ phân giải cao 48MP cùng chip xử lý hình ảnh tối tân cực kỳ hoàn hảo cho những ai cần làm nội dung video chuyên sâu.,"Máy có 3 camera sau, gồm camera chính 48MP, góc siêu rộng 48MP và telephoto 48MP.
+
+iPhone 17 Pro Max có hệ thống telephoto hỗ trợ zoom quang học, phù hợp với nhu cầu chụp chủ thể ở xa.
+
+Có. Hệ thống 3 camera 48MP và phần cứng xử lý hình ảnh mạnh phù hợp với người cần chụp ảnh, quay video và chỉnh sửa nội dung trên điện thoại. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.","33,34,39",https://support.apple.com/en-la/125091,0.001,,False,False
+3,Dòng máy flagship thế hệ mới Samsung Galaxy S26 xài chip và RAM gì?,"Samsung Galaxy S26 tại Việt Nam dùng chip Exynos 2600, RAM 12GB.","Samsung Galaxy S26 tại Việt Nam dùng chip Exynos 2600, RAM 12GB.",84,https://www.samsung.com/vn/smartphones/galaxy-s26/,0.001,,False,True
+4,Kích thước hiển thị và tần số làm tươi màn hình của Samsung S26?,Mẫu máy sở hữu không gian hiển thị rộng 6.3 inch sử dụng công nghệ tấm nền cao cấp Dynamic AMOLED 2X cùng tần số quét mượt 120Hz.,"Samsung Galaxy S26 dùng màn hình Dynamic AMOLED 2X 6,3 inch, tần số quét 120Hz.",85,,0.001,,False,False
+5,Thông số độ phân giải các camera tích hợp trên Samsung Galaxy S26?,Máy sở hữu cụm 3 camera sau đa tiêu cự bao gồm ống kính chính góc rộng và camera tele bổ trợ kết hợp cùng camera trước độ phân giải 12MP.,"Samsung Galaxy S26 có cụm camera sau (chính + góc rộng + tele), camera trước 12MP.",86,,0.001,,False,False
+6,Người mua mẫu máy Samsung S26 tiêu chuẩn có những bản bộ nhớ nào?,Dòng máy mang đến cho người dùng hai lựa chọn không gian bộ nhớ lưu trữ trong quen thuộc bao gồm dung lượng 256GB và 512GB.,Samsung Galaxy S26 có các phiên bản 256GB và 512GB.,87,,0.001,,False,False
+7,Giá bán chính thức của dòng điện thoại Samsung Galaxy S26 là bao nhiêu?,Mức giá của máy sẽ phụ thuộc vào thời điểm mở bán và từng đại lý phân phối cụ thể nên cần cập nhật liên tục tại quầy tư vấn.,"Samsung Galaxy S26 bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 20.600.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi.",88,https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26.html,0.001,,False,False
+8,Cấu hình phần cứng lõi trang bị trên chiếc máy Samsung Galaxy S26+?,"Samsung Galaxy S26+ tại Việt Nam dùng chip Exynos 2600, RAM 12GB.","Samsung Galaxy S26+ tại Việt Nam dùng chip Exynos 2600, RAM 12GB.",89,https://www.samsung.com/vn/smartphones/galaxy-s26/,0.001,,False,True
+9,Dòng điện thoại phân khúc phổ thông Redmi Note 15 là loại thiết bị gì vậy shop?,Đây là smartphone Redmi thuộc Xiaomi hướng đến phân khúc phổ thông cận trung cấp,"Đây là smartphone Redmi thuộc Xiaomi, hướng đến phân khúc phổ thông, cận trung cấp",404,,0.001,,False,True
+10,Thương hiệu Xiaomi định vị mẫu Redmi Note 15 ở phân khúc nào?,Đây là smartphone Redmi thuộc Xiaomi hướng đến phân khúc phổ thông cận trung cấp,"Đây là smartphone Redmi thuộc Xiaomi, hướng đến phân khúc phổ thông, cận trung cấp",404,,0.001,,False,True
+11,Hãng Xiaomi chính thức công bố ra mắt sản phẩm Redmi Note 15 vào ngày nào?,"Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.","Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.",405,https://www.mi.com/vn/support/faq/details/KA-655859/,0.001,,False,True
+12,redmi note 15 ra mat nam nao the ad?,"Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.","Theo FAQ Xiaomi Việt Nam KA-655859, REDMI Note 15 ra mắt ngày 15/01/2026. Một FAQ khác của hãng ghi 2025; cần phân biệt thị trường và đối chiếu thông báo mở bán năm 2026.",405,https://www.mi.com/vn/support/faq/details/KA-655859/,0.0,,False,True
+13,Dòng máy Redmi Note 15 khi phân phối có các biến thể kết nối mạng nào,Có Redmi Note 15 và Redmi Note 15 5G,Có Redmi Note 15 và Redmi Note 15 5G,406,,0.001,,False,True
+14,Mẫu điện thoại Redmi Note 15 gồm những bản mạng nào?,Có Redmi Note 15 và Redmi Note 15 5G,Có Redmi Note 15 và Redmi Note 15 5G,406,,0.001,,False,True
+15,Mua chiếc Redmi Note 15 bản chạy mạng 4G thì có những màu sắc lựa chọn nào?,Bản 4G có các màu như Đen Xanh Băng và Tím Khói,"Bản 4G có các màu như Đen, Xanh Băng và Tím Khói",407,https://www.mi.com/vn/product/redmi-note-15/specs/,0.001,,False,True
+16,pin cua ip15 thuong bao nhieu mah?,iPhone 15 có dung lượng pin khoảng 3.349mAh.,iPhone 15 có dung lượng pin khoảng 3.349mAh.,71,,0.001,,False,True
+17,iPhone 15 phân phối chính thức gồm những tùy chọn dung lượng lưu trữ nào?,iPhone 15 có các phiên bản 128GB 256GB và 512GB.,"iPhone 15 có các phiên bản 128GB, 256GB và 512GB.",72,https://support.apple.com/vi-vn/111831,0.001,,False,True
+18,ip15 co nhung ban dung luong nao?,iPhone 15 có các phiên bản 128GB 256GB và 512GB.,"iPhone 15 có các phiên bản 128GB, 256GB và 512GB.",72,https://support.apple.com/vi-vn/111831,0.0,,False,True
+19,Điểm nâng cấp phân khúc lớn nhất giữa iPhone 15 Plus so với iPhone 15?,"iPhone 15 và iPhone 15 Plus cùng dùng A16 Bionic. iPhone 15 có màn hình 6,1 inch; iPhone 15 Plus có màn hình 6,7 inch. Apple công bố thời gian xem video tối đa lần lượt 20 và 26 giờ; đây là số liệu hãng, không phải phép đo của nhóm.","So sánh theo dữ liệu hiện có:
+
+Giá tham khảo:
+iphone 15 plus:
+Giá phụ thuộc vào dung lượng và tình trạng hàng; nên kiểm tra giá tại thời điểm tư vấn để tránh báo sai.
+iphone 15:
+Giá tham khảo iPhone 15 từ khoảng 17,89 triệu đồng, tùy dung lượng và thời điểm bán.
+
+Chip / RAM:
+iphone 15 plus:
+iPhone 15 Plus dùng chip A16 Bionic, GPU 5 lõi.
+Chưa có dữ liệu về RAM.
+iphone 15:
+iPhone 15 sử dụng A16 Bionic và RAM 6GB.
+
+Bộ nhớ:
+iphone 15 plus:
+iPhone 15 Plus có các bản lưu trữ 128GB, 256GB và 512GB.
+iphone 15:
+iPhone 15 có các phiên bản 128GB, 256GB và 512GB.
+
+Màn hình:
+iphone 15 plus:
+Có. Máy có màn hình 6,7 inch, phù hợp với người thích xem phim, đọc nội dung và chơi game trên màn hình lớn.
+iphone 15:
+iPhone 15 có màn hình OLED 6,1 inch, tần số quét 60Hz.
+
+Camera:
+iphone 15 plus:
+iPhone 15 Plus có hai camera sau: chính 48MP, góc siêu rộng 12MP; ảnh tele 2x 12MP được tạo từ cảm biến chính; camera trước TrueDepth 12MP.
+iphone 15:
+iPhone 15 có camera chính 48MP và camera góc siêu rộng 12MP.
+
+Pin / sạc:
+iphone 15 plus:
+iPhone 15 Plus có dung lượng pin khoảng 4.383mAh.
+iphone 15:
+iPhone 15 có dung lượng pin khoảng 3.349mAh.
+
+Chống nước:
+iphone 15 plus:
+iPhone 15 Plus đạt chuẩn IP68 theo thử nghiệm của Apple: tối đa 6 mét trong 30 phút. Khả năng kháng nước có thể giảm theo thời gian.
+iphone 15:
+Chưa có dữ liệu về chống nước.
+
+Giá trong dữ liệu là giá tham khảo; cần đối chiếu đúng dung lượng và tình trạng máy khi mua.
+
+Các mục còn thiếu chưa đủ cơ sở để kết luận máy nào hơn ở tiêu chí đó.","77,73,736,68,737,72,76,69,738,70,75,71,739",https://support.apple.com/en-us/111830 | https://support.apple.com/vi-vn/111831,0.001,,False,False
+20,ip15 plus khac gi so voi ip15 tieu chuan?,"iPhone 15 và iPhone 15 Plus cùng dùng A16 Bionic. iPhone 15 có màn hình 6,1 inch; iPhone 15 Plus có màn hình 6,7 inch. Apple công bố thời gian xem video tối đa lần lượt 20 và 26 giờ; đây là số liệu hãng, không phải phép đo của nhóm.","So sánh theo dữ liệu hiện có:
+
+Giá tham khảo:
+iphone 15 plus:
+Giá phụ thuộc vào dung lượng và tình trạng hàng; nên kiểm tra giá tại thời điểm tư vấn để tránh báo sai.
+iphone 15:
+Giá tham khảo iPhone 15 từ khoảng 17,89 triệu đồng, tùy dung lượng và thời điểm bán.
+
+Chip / RAM:
+iphone 15 plus:
+iPhone 15 Plus dùng chip A16 Bionic, GPU 5 lõi.
+Chưa có dữ liệu về RAM.
+iphone 15:
+iPhone 15 sử dụng A16 Bionic và RAM 6GB.
+
+Bộ nhớ:
+iphone 15 plus:
+iPhone 15 Plus có các bản lưu trữ 128GB, 256GB và 512GB.
+iphone 15:
+iPhone 15 có các phiên bản 128GB, 256GB và 512GB.
+
+Màn hình:
+iphone 15 plus:
+Có. Máy có màn hình 6,7 inch, phù hợp với người thích xem phim, đọc nội dung và chơi game trên màn hình lớn.
+iphone 15:
+iPhone 15 có màn hình OLED 6,1 inch, tần số quét 60Hz.
+
+Camera:
+iphone 15 plus:
+iPhone 15 Plus có hai camera sau: chính 48MP, góc siêu rộng 12MP; ảnh tele 2x 12MP được tạo từ cảm biến chính; camera trước TrueDepth 12MP.
+iphone 15:
+iPhone 15 có camera chính 48MP và camera góc siêu rộng 12MP.
+
+Pin / sạc:
+iphone 15 plus:
+iPhone 15 Plus có dung lượng pin khoảng 4.383mAh.
+iphone 15:
+iPhone 15 có dung lượng pin khoảng 3.349mAh.
+
+Chống nước:
+iphone 15 plus:
+iPhone 15 Plus đạt chuẩn IP68 theo thử nghiệm của Apple: tối đa 6 mét trong 30 phút. Khả năng kháng nước có thể giảm theo thời gian.
+iphone 15:
+Chưa có dữ liệu về chống nước.
+
+Giá trong dữ liệu là giá tham khảo; cần đối chiếu đúng dung lượng và tình trạng máy khi mua.
+
+Các mục còn thiếu chưa đủ cơ sở để kết luận máy nào hơn ở tiêu chí đó.","77,73,736,68,737,72,76,69,738,70,75,71,739",https://support.apple.com/en-us/111830 | https://support.apple.com/vi-vn/111831,0.001,,False,False
+21,Màn hình hiển thị mặt trước của iPhone 15 Pro có hỗ trợ tần số quét mượt 120Hz không?,"Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.","Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.",79,https://support.apple.com/vi-vn/111829,0.001,,False,True
+22,iphone 15 pro man hinh quet bao nhieu Hz?,"Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.","Có. iPhone 15 Pro có màn hình OLED 6,1 inch với ProMotion 120Hz.",79,https://support.apple.com/vi-vn/111829,0.0,,False,True
+23,Thông số độ phân giải cụm 3 camera sau trên mẫu iPhone 15 Pro?,iPhone 15 Pro có camera chính 48MP camera góc siêu rộng 12MP và camera telephoto 12MP.,"iPhone 15 Pro có camera chính 48MP, camera góc siêu rộng 12MP và camera telephoto 12MP.",80,https://support.apple.com/vi-vn/111829,0.001,,False,True
+24,Cụm ống kính phía sau của iPhone 15 Pro camera thông số thế nào?,iPhone 15 Pro có camera chính 48MP camera góc siêu rộng 12MP và camera telephoto 12MP.,"iPhone 15 Pro có camera chính 48MP, camera góc siêu rộng 12MP và camera telephoto 12MP.",80,https://support.apple.com/vi-vn/111829,0.001,,False,True
+25,Cày game nặng trên iPhone 15 Pro mượt và ổn định khung hình không shop?,Có. A17 Pro RAM 8GB và màn hình 120Hz giúp máy phù hợp với các game yêu cầu hiệu năng cao.,"Có. A17 Pro, RAM 8GB và màn hình 120Hz giúp máy phù hợp với các game yêu cầu hiệu năng cao. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.",81,,0.001,,False,False
+26,ip15 pro hnay gia bao nhieu tiền?,Giá phụ thuộc vào dung lượng và tình trạng hàng. Với máy mới giá tham khảo cần được cập nhật theo thời điểm bán.,"Giá phụ thuộc vào dung lượng và tình trạng hàng. Với máy mới, giá tham khảo cần được cập nhật theo thời điểm bán.",82,,0.0,,False,True
+27,Siêu phẩm cao cấp nhất Samsung Galaxy S26 Ultra sử dụng dòng chip xử lý gì và RAM tối đa bao nhiêu?,Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy RAM 12GB (bản 1TB có RAM 16GB).,"Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy, RAM 12GB (bản 1TB có RAM 16GB).",95,https://www.samsung.com/vn/smartphones/galaxy-s26-ultra/compare/,0.001,,False,True
+28,Cấu hình vi xử lý chính thức của chiếc Samsung S26 Ultra?,Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy RAM 12GB (bản 1TB có RAM 16GB),"Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy, RAM 12GB (bản 1TB có RAM 16GB).",95,https://www.samsung.com/vn/smartphones/galaxy-s26-ultra/compare/,0.001,,False,True
+29,Màn hình Dynamic AMOLED 2X của Samsung S26 Ultra rộng mấy inch và tích hợp tính năng gì mới?,"Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch tần số quét 120Hz có tính năng Privacy Display tích hợp.","Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch, tần số quét 120Hz, có tính năng Privacy Display tích hợp.",96,,0.001,,False,True
+30,Màn hình hiển thị chống nhìn trộm Privacy Display được trang bị trên điện thoại nào?,"Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch tần số quét 120Hz có tính năng Privacy Display tích hợp.","Samsung Galaxy S26 Ultra dùng màn hình Dynamic AMOLED 2X 6,9 inch, tần số quét 120Hz, có tính năng Privacy Display tích hợp.",96,,0.023,,False,True
+31,Thông số chi tiết độ phân giải của cụm 4 camera sau trên siêu phẩm Samsung S26 Ultra?,Samsung Galaxy S26 Ultra có camera chính 200MP kèm camera góc siêu rộng và 2 camera tele (zoom quang 3x và 5x) camera trước 12MP.,"Samsung Galaxy S26 Ultra có camera chính 200MP kèm camera góc siêu rộng và 2 camera tele (zoom quang 3x và 5x), camera trước 12MP.
+
+Có. Chip Snapdragon 8 Elite Gen 5, RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.","97,101",,0.002,,False,False
+32,Cấu hình chip khủng kết hợp camera 200MP giúp Samsung S26 Ultra xử lý tốt các tác vụ gaming nặng và chụp ảnh chuyên sâu không?,Có. Chip Snapdragon 8 Elite Gen 5 RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu.,"Samsung Galaxy S26 Ultra có camera chính 200MP kèm camera góc siêu rộng và 2 camera tele (zoom quang 3x và 5x), camera trước 12MP.
+
+Có. Chip Snapdragon 8 Elite Gen 5, RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.
+
+Samsung Galaxy S26 Ultra dùng chip Snapdragon 8 Elite Gen 5 for Galaxy, RAM 12GB (bản 1TB có RAM 16GB).","97,101,95",https://www.samsung.com/vn/smartphones/galaxy-s26-ultra/compare/,0.008,,False,False
+33,Mua Samsung S26 Ultra về làm máy cày game đồ họa nặng kết hợp quay phim chuyên nghiệp ổn không?,Có. Chip Snapdragon 8 Elite Gen 5 RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu.,"Samsung Galaxy S26 Ultra có camera chính 200MP kèm camera góc siêu rộng và 2 camera tele (zoom quang 3x và 5x), camera trước 12MP.
+
+Có. Chip Snapdragon 8 Elite Gen 5, RAM lớn và cụm camera 200MP đa tiêu cự giúp máy phù hợp cả chơi game nặng lẫn chụp ảnh/quay video chuyên sâu. Đây là nhận định từ thông số; nhóm chưa thử nghiệm thực tế về FPS, nhiệt độ, pin hoặc chất lượng ảnh.","97,101",,0.002,,False,False

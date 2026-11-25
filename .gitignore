@@ -1,0 +1,18 @@
+# Local GGUF models (too large for GitHub's 100 MB limit)
+model/*.gguf
+
+# Local databases & secrets
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# Python & IDE artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.DS_Store

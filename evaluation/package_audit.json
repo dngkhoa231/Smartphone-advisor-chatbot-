@@ -1,0 +1,77 @@
+{
+  "complete_pairs": 767,
+  "incomplete_pairs": 14,
+  "with_url": 126,
+  "duplicate_groups": [
+    {
+      "rows": [
+        520,
+        537
+      ],
+      "conflict": false
+    },
+    {
+      "rows": [
+        532,
+        583
+      ],
+      "conflict": false
+    },
+    {
+      "rows": [
+        536,
+        578
+      ],
+      "conflict": false
+    },
+    {
+      "rows": [
+        545,
+        588
+      ],
+      "conflict": false
+    },
+    {
+      "rows": [
+        601,
+        640
+      ],
+      "conflict": false
+    }
+  ],
+  "missing_answer_rows": [
+    88,
+    94,
+    100,
+    107,
+    114,
+    121,
+    143,
+    150,
+    181,
+    188,
+    195,
+    202,
+    209,
+    216
+  ],
+  "forbidden_submission_files": [],
+  "embedded_mongo_credentials": [],
+  "models": [
+    {
+      "file": "all-MiniLM-L6-v2.gguf2.f16.gguf",
+      "present": true,
+      "bytes": 45949216,
+      "sha256": "797b70c4edf85907fe0a49eb85811256f65fa0f7bf52166b147fd16be2be4662"
+    },
+    {
+      "file": "vinallama-7b-chat_q5_0.gguf",
+      "present": true,
+      "bytes": 4741772992,
+      "sha256": "e4b51469a677ff2207aadd133d12b2397db3fbca2ee53928eec43b8b6af820b7"
+    }
+  ],
+  "index_matches_excel": true,
+  "index_document_count_matches": true,
+  "note": "URL presence is not factual verification. Pattern scanning is not a guarantee that every possible secret is absent."
+}
