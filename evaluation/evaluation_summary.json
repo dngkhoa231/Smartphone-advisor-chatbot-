@@ -10,6 +10,6 @@
   "test_exact_text_matches": 21,
   "test_questions_requesting_llm": 0,
   "response_median_seconds": 0.001,
-  "response_p95_seconds": 0.008,
+  "response_p95_seconds": 0.002,
   "note": "Exact text match is not factual accuracy. This is a regression set used during development, not an independent benchmark. Some expected answers remain unverified; manual fact review is required. Timing covers answer_question only, not browser, HTTP or database persistence."
 }

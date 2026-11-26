@@ -1,3 +1,5 @@
+[!] Che do Offline: Khong co mang, su dung CSDL offline SQLite (C:\Users\T14\Desktop\backup\PhoneGPT_DoAn_20261126\offline_chatbot.db).
+[*] FAQ san sang. VinaLLaMA se duoc nap khi can tong hop.
 test_all_exact_faqs (test_answers.Answers.test_all_exact_faqs) ... ok
 test_comparison (test_answers.Answers.test_comparison) ... ok
 test_deadline_and_no_concurrent_generation (test_answers.Answers.test_deadline_and_no_concurrent_generation) ... ok
@@ -10,10 +12,12 @@ test_reported_wrong_price (test_answers.Answers.test_reported_wrong_price) ... o
 test_unknown_and_partial_models (test_answers.Answers.test_unknown_and_partial_models) ... ok
 test_budget_followup_and_new_chat (test_answers.WebRoutes.test_budget_followup_and_new_chat) ... ok
 test_camera_budget_and_short_reply_recommend_models (test_answers.WebRoutes.test_camera_budget_and_short_reply_recommend_models) ... ok
+test_frontend_caches_csrf_and_streams_without_fake_delay (test_answers.WebRoutes.test_frontend_caches_csrf_and_streams_without_fake_delay) ... ok
 test_input_and_login (test_answers.WebRoutes.test_input_and_login) ... ok
 test_json_and_stream_match (test_answers.WebRoutes.test_json_and_stream_match) ... ok
 test_model_timeout_returns_complete_source (test_answers.WebRoutes.test_model_timeout_returns_complete_source) ... ok
 test_new_comparison_not_limited_by_previous_budget (test_answers.WebRoutes.test_new_comparison_not_limited_by_previous_budget) ... ok
+test_real_sse_streaming_and_midstream_timeout_replace (test_answers.WebRoutes.test_real_sse_streaming_and_midstream_timeout_replace) ... ok
 test_screenshot_new_budget_request_drops_partial_comparison (test_answers.WebRoutes.test_screenshot_new_budget_request_drops_partial_comparison) ... ok
 test_hash_persistence_and_login_after_process_restart (test_auth.Authentication.test_hash_persistence_and_login_after_process_restart) ... ok
 test_malformed_request_is_rejected (test_auth.Authentication.test_malformed_request_is_rejected) ... ok
@@ -48,11 +52,15 @@ test_specs_followup_keeps_phone_but_drops_budget_filter (test_context.Context.te
 test_mongo_deletion_matches_id_and_current_user (test_history_delete.DeleteHistory.test_mongo_deletion_matches_id_and_current_user) ... ok
 test_requires_login_and_deletes_only_selected_users_row (test_history_delete.DeleteHistory.test_requires_login_and_deletes_only_selected_users_row) ... ok
 test_corrupt_password_hash_does_not_crash_login (test_project_quality.ProjectQuality.test_corrupt_password_hash_does_not_crash_login) ... ok
-test_failed_history_save_is_reported_in_json_and_stream (test_project_quality.ProjectQuality.test_failed_history_save_is_reported_in_json_and_stream) ... ok
+test_failed_history_save_is_reported_in_json_and_stream (test_project_quality.ProjectQuality.test_failed_history_save_is_reported_in_json_and_stream) ... [2026-11-26 15:25:35,990] WARNING in app: history_write_failed
+[2026-11-26 15:25:36,007] WARNING in app: history_write_failed
+ok
 test_ipv6_loopback_host_is_supported (test_project_quality.ProjectQuality.test_ipv6_loopback_host_is_supported) ... ok
-test_mongo_read_failure_is_visible (test_project_quality.ProjectQuality.test_mongo_read_failure_is_visible) ... ok
+test_mongo_read_failure_is_visible (test_project_quality.ProjectQuality.test_mongo_read_failure_is_visible) ... [2026-11-26 15:25:36,105] WARNING in app: history_read_failed
+ok
 test_mongo_write_failure_does_not_store_shadow_history (test_project_quality.ProjectQuality.test_mongo_write_failure_does_not_store_shadow_history) ... ok
-test_session_database_failure_returns_json_503 (test_project_quality.ProjectQuality.test_session_database_failure_returns_json_503) ... ok
+test_session_database_failure_returns_json_503 (test_project_quality.ProjectQuality.test_session_database_failure_returns_json_503) ... [2026-11-26 15:25:36,195] WARNING in security_controls: security_database_unavailable
+ok
 test_sql_injection_username_cannot_authenticate (test_project_quality.ProjectQuality.test_sql_injection_username_cannot_authenticate) ... ok
 test_unicode_csrf_rejected_without_server_error (test_project_quality.ProjectQuality.test_unicode_csrf_rejected_without_server_error) ... ok
 test_amounts_and_ranges (test_recommendations.BudgetParsing.test_amounts_and_ranges) ... ok
@@ -85,6 +93,6 @@ test_persistent_rate_limit (test_security_controls.SecurityControls.test_persist
 test_short_password_rejected (test_security_controls.SecurityControls.test_short_password_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 85 tests in 8.759s
+Ran 87 tests in 10.046s
 
 OK

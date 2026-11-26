@@ -13,7 +13,7 @@ from answer_engine import normalize
 from prepare_vector_db import DATA_FILE, read_training
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--out', default='outputs/teacher_review_20261115/evaluation')
+parser.add_argument('--out', default='evaluation')
 args = parser.parse_args()
 OUT = BASE / args.out
 OUT.mkdir(parents=True, exist_ok=True)

@@ -1,7 +1,7 @@
-{
-  "complete_pairs": 767,
-  "incomplete_pairs": 14,
-  "with_url": 126,
+﻿{
+  "complete_pairs": 781,
+  "incomplete_pairs": 0,
+  "with_url": 168,
   "duplicate_groups": [
     {
       "rows": [
@@ -39,22 +39,7 @@
       "conflict": false
     }
   ],
-  "missing_answer_rows": [
-    88,
-    94,
-    100,
-    107,
-    114,
-    121,
-    143,
-    150,
-    181,
-    188,
-    195,
-    202,
-    209,
-    216
-  ],
+  "missing_answer_rows": [],
   "forbidden_submission_files": [],
   "embedded_mongo_credentials": [],
   "models": [

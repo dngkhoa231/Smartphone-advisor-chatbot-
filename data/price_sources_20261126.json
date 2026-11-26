@@ -1,0 +1,156 @@
+[
+  {
+    "row": 88,
+    "model": "Samsung Galaxy S26",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "price_vnd": 20600000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy S26 bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 20.600.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 94,
+    "model": "Samsung Galaxy S26+",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "price_vnd": 24490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-plus.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy S26+ bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 24.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 100,
+    "model": "Samsung Galaxy S26 Ultra",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "price_vnd": 31490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy S26 Ultra bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 31.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 107,
+    "model": "Samsung Galaxy S26 FE",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 15490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-fe.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy S26 FE bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 15.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 114,
+    "model": "Samsung Galaxy Z Fold8",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "price_vnd": 40790000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy Z Fold8 bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 40.790.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 121,
+    "model": "Samsung Galaxy Z Flip8",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "price_vnd": 26490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-flip-8.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy Z Flip8 bản RAM 12GB, bộ nhớ 256GB có giá tham khảo 26.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 143,
+    "model": "Samsung Galaxy A17 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 7390000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17-5g.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A17 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 7.390.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 150,
+    "model": "Samsung Galaxy A17 4G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 5490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A17 4G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 5.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 181,
+    "model": "Samsung Galaxy A57 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 11000000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a57.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A57 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 11.000.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 188,
+    "model": "Samsung Galaxy A56 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 8990000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a56.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A56 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 8.990.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 195,
+    "model": "Samsung Galaxy A37 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 9700000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a37.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A37 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 9.700.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 202,
+    "model": "Samsung Galaxy A36 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 7490000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a36.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A36 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 7.490.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 209,
+    "model": "Samsung Galaxy A27 5G",
+    "ram_gb": 6,
+    "storage_gb": 128,
+    "price_vnd": 7900000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a27.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A27 5G bản RAM 6GB, bộ nhớ 128GB có giá tham khảo 7.900.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  },
+  {
+    "row": 216,
+    "model": "Samsung Galaxy A26 5G",
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "price_vnd": 6090000,
+    "reference_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a26.html",
+    "checked_on": "2026-11-26",
+    "region": "Hồ Chí Minh",
+    "answer": "Samsung Galaxy A26 5G bản RAM 8GB, bộ nhớ 128GB có giá tham khảo 6.090.000 đồng tại CellphoneS, khu vực Hồ Chí Minh (tra cứu ngày 26/11/2026). Giá có thể thay đổi theo thời điểm và ưu đãi."
+  }
+]
