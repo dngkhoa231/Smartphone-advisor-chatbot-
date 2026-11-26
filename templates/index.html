@@ -953,6 +953,118 @@
       border-radius: 8px;
     }
 
+    /* ============ BẢNG SO SÁNH SẢN PHẨM ============ */
+    .compare-wrap {
+      white-space: normal;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .compare-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .compare-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+    }
+    .compare-table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      background: #fff;
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .compare-table thead th {
+      background: linear-gradient(135deg, #1d4ed8 0%, #0f766e 100%);
+      color: #fff;
+      font-weight: 700;
+      text-align: left;
+      padding: 10px 12px;
+      font-size: 13px;
+      border-right: 1px solid rgba(255, 255, 255, 0.16);
+    }
+    .compare-table thead th:last-child {
+      border-right: none;
+    }
+    .compare-table thead th:first-child {
+      width: 124px;
+      min-width: 110px;
+    }
+    .compare-table tbody tr {
+      border-top: 1px solid #e6edf7;
+    }
+    .compare-table tbody tr:nth-child(even) {
+      background: #f8fafd;
+    }
+    .compare-table tbody td {
+      padding: 10px 12px;
+      vertical-align: top;
+      border-right: 1px solid #e6edf7;
+      color: var(--text-primary);
+    }
+    .compare-table tbody td:last-child {
+      border-right: none;
+    }
+    .compare-criterion {
+      font-weight: 700;
+      color: #1e3a8a;
+      background: rgba(219, 234, 254, 0.28);
+      white-space: nowrap;
+    }
+    .compare-list {
+      margin: 0;
+      padding-left: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .compare-list li {
+      margin: 0;
+    }
+    .compare-missing {
+      display: inline-block;
+      font-size: 12px;
+      font-style: italic;
+      color: #92400e;
+      background: var(--amber-soft);
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .compare-warning {
+      font-size: 12.5px;
+      color: #92400e;
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      padding: 8px 11px;
+      border-radius: 9px;
+    }
+    .compare-notes {
+      font-size: 12px;
+      color: var(--text-secondary);
+      background: #f1f5f9;
+      border-left: 3px solid var(--teal);
+      padding: 8px 11px;
+      border-radius: 0 8px 8px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
     .streaming-cursor::after {
       content: "▋";
       display: inline-block;
@@ -1544,7 +1656,12 @@
 
       const textSpan = document.createElement('div');
       textSpan.className = 'msg-text';
-      textSpan.innerText = text;
+      bubble.dataset.rawText = text || '';
+      if (role === 'bot' && !isStreaming && !renderComparisonInto(textSpan, text)) {
+        textSpan.innerText = text;
+      } else if (role !== 'bot' || isStreaming) {
+        textSpan.innerText = text;
+      }
       bubble.appendChild(textSpan);
 
       if (role === 'bot') {
@@ -1599,7 +1716,7 @@
       copyBtn.textContent = 'Sao chép';
       copyBtn.onclick = async () => {
         try {
-          await navigator.clipboard.writeText(textSpan.innerText);
+          await navigator.clipboard.writeText(bubble.dataset.rawText || textSpan.innerText);
           copyBtn.textContent = 'Đã chép';
           setTimeout(() => { copyBtn.textContent = 'Sao chép'; }, 1400);
         } catch {
@@ -1613,6 +1730,188 @@
     function renderReferences(bubble, references) {
       const textSpan = bubble.querySelector('.msg-text');
       renderBotFooter(bubble, textSpan, references);
+    }
+
+    const COMPARE_CRITERIA = new Set([
+      'Giá tham khảo', 'Chip / RAM', 'Chip', 'RAM', 'Bộ nhớ',
+      'Màn hình', 'Camera', 'Pin / sạc', 'Chơi game', 'Chống nước', 'S Pen'
+    ]);
+
+    function formatPhoneDisplayName(raw) {
+      return raw
+        .trim()
+        .split(/\s+/)
+        .map(word => {
+          const low = word.toLowerCase();
+          if (low === 'iphone') return 'iPhone';
+          if (low === 'poco') return 'POCO';
+          if (low === 'fe') return 'FE';
+          if (low === '5g') return '5G';
+          if (low === '4g') return '4G';
+          if (low === 'pro+') return 'Pro+';
+          if (/^s\d+\+?$/i.test(word) || /^[amfz]\d+/i.test(word)) return word.toUpperCase();
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        })
+        .join(' ');
+    }
+
+    function parseComparisonMessage(rawText) {
+      if (!rawText || typeof rawText !== 'string') return null;
+      const lines = rawText.replace(/\r\n/g, '\n').split('\n');
+      if (!lines.length || lines[0].trim() !== 'So sánh theo dữ liệu hiện có:') return null;
+
+      const warnings = [];
+      const sections = [];
+      const notes = [];
+      const phoneOrder = [];
+      let currentSection = null;
+      let currentPhone = null;
+
+      const phoneHeaderPattern = /^(?:iphone|samsung|galaxy|redmi|poco|z\s*(?:fold|flip)|fold|flip|[samf]\s*\d)[a-z0-9\s+.-]{0,45}:$/i;
+
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        if (line.startsWith('Chưa có dữ liệu cho ')) {
+          warnings.push(line);
+          continue;
+        }
+        if (line.startsWith('Giá trong dữ liệu là giá tham khảo') || line.startsWith('Các mục còn thiếu chưa đủ cơ sở')) {
+          notes.push(line);
+          currentSection = null;
+          currentPhone = null;
+          continue;
+        }
+        if (line.endsWith(':') && COMPARE_CRITERIA.has(line.slice(0, -1).trim())) {
+          currentSection = { title: line.slice(0, -1).trim(), phones: {} };
+          sections.push(currentSection);
+          currentPhone = null;
+          continue;
+        }
+        if (currentSection && phoneHeaderPattern.test(line)) {
+          currentPhone = line.slice(0, -1).trim();
+          if (!phoneOrder.includes(currentPhone)) phoneOrder.push(currentPhone);
+          if (!currentSection.phones[currentPhone]) currentSection.phones[currentPhone] = [];
+          continue;
+        }
+        if (currentSection && currentPhone) {
+          currentSection.phones[currentPhone].push(line);
+        }
+      }
+
+      if (!sections.length || phoneOrder.length < 2) return null;
+      return { warnings, sections, notes, phoneOrder };
+    }
+
+    function buildComparisonDom(parsed) {
+      const wrap = document.createElement('div');
+      wrap.className = 'compare-wrap';
+
+      const title = document.createElement('div');
+      title.className = 'compare-title';
+      const badge = document.createElement('span');
+      badge.className = 'compare-tag';
+      badge.textContent = 'Bảng so sánh';
+      const heading = document.createElement('span');
+      heading.textContent = parsed.phoneOrder.map(formatPhoneDisplayName).join('  vs  ');
+      title.appendChild(badge);
+      title.appendChild(heading);
+      wrap.appendChild(title);
+
+      parsed.warnings.forEach(w => {
+        const warn = document.createElement('div');
+        warn.className = 'compare-warning';
+        warn.textContent = w;
+        wrap.appendChild(warn);
+      });
+
+      const scrollBox = document.createElement('div');
+      scrollBox.className = 'compare-table-scroll';
+      const table = document.createElement('table');
+      table.className = 'compare-table';
+
+      const thead = document.createElement('thead');
+      const headRow = document.createElement('tr');
+      const thCrit = document.createElement('th');
+      thCrit.textContent = 'Tiêu chí';
+      headRow.appendChild(thCrit);
+      parsed.phoneOrder.forEach(phone => {
+        const th = document.createElement('th');
+        th.textContent = formatPhoneDisplayName(phone);
+        headRow.appendChild(th);
+      });
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+
+      const tbody = document.createElement('tbody');
+      parsed.sections.forEach(sec => {
+        const tr = document.createElement('tr');
+        const tdCrit = document.createElement('td');
+        tdCrit.className = 'compare-criterion';
+        tdCrit.textContent = sec.title;
+        tr.appendChild(tdCrit);
+
+        parsed.phoneOrder.forEach(phone => {
+          const td = document.createElement('td');
+          const items = sec.phones[phone] || [];
+          const normalItems = items.filter(x => !x.startsWith('Chưa có dữ liệu về '));
+          const missingItems = items.filter(x => x.startsWith('Chưa có dữ liệu về '));
+
+          if (normalItems.length === 1) {
+            const p = document.createElement('div');
+            p.textContent = normalItems[0];
+            td.appendChild(p);
+          } else if (normalItems.length > 1) {
+            const ul = document.createElement('ul');
+            ul.className = 'compare-list';
+            normalItems.forEach(item => {
+              const li = document.createElement('li');
+              li.textContent = item;
+              ul.appendChild(li);
+            });
+            td.appendChild(ul);
+          }
+          missingItems.forEach(m => {
+            const span = document.createElement('span');
+            span.className = 'compare-missing';
+            span.textContent = m;
+            if (normalItems.length) span.style.marginTop = '6px';
+            td.appendChild(span);
+          });
+          if (!items.length) {
+            const span = document.createElement('span');
+            span.className = 'compare-missing';
+            span.textContent = 'Chưa có dữ liệu';
+            td.appendChild(span);
+          }
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+      scrollBox.appendChild(table);
+      wrap.appendChild(scrollBox);
+
+      if (parsed.notes.length) {
+        const notesBox = document.createElement('div');
+        notesBox.className = 'compare-notes';
+        parsed.notes.forEach(n => {
+          const line = document.createElement('div');
+          line.textContent = n;
+          notesBox.appendChild(line);
+        });
+        wrap.appendChild(notesBox);
+      }
+
+      return wrap;
+    }
+
+    function renderComparisonInto(textSpan, rawText) {
+      const parsed = parseComparisonMessage(rawText);
+      if (!parsed) return false;
+      textSpan.innerHTML = '';
+      textSpan.appendChild(buildComparisonDom(parsed));
+      return true;
     }
 
     function quickAsk(q) {
@@ -1656,6 +1955,7 @@
       const { bubble, textSpan, timeBadge } = appendMessage('bot', 'Đang tra cứu thông số và giá tham khảo...', null, true, [], sentAt);
       let startedTokens = false;
       let replaceEpoch = 0;
+      let rawBuffer = '';
       let typingChain = Promise.resolve();
 
       try {
@@ -1691,9 +1991,18 @@
                 const event = JSON.parse(jsonStr);
                 if (event.type === 'token') {
                   if (requestGeneration !== chatGeneration) continue;
+                  rawBuffer += event.text;
+                  bubble.dataset.rawText = rawBuffer;
                   const epochAtQueue = replaceEpoch;
-                  typingChain = typingChain.then(() => {
+                  const maybeCompare = parseComparisonMessage(rawBuffer);
+                  typingChain = typingChain.then(async () => {
                     if (requestGeneration !== chatGeneration || epochAtQueue !== replaceEpoch) return;
+                    if (maybeCompare) {
+                      startedTokens = true;
+                      renderComparisonInto(textSpan, rawBuffer);
+                      scrollToBottom();
+                      return;
+                    }
                     if (!startedTokens) {
                       textSpan.innerText = '';
                       startedTokens = true;
@@ -1703,10 +2012,16 @@
                 } else if (event.type === 'replace') {
                   if (requestGeneration !== chatGeneration) continue;
                   replaceEpoch += 1;
+                  rawBuffer = event.text;
+                  bubble.dataset.rawText = rawBuffer;
                   const epochAtReplace = replaceEpoch;
                   typingChain = typingChain.then(() => {
                     if (requestGeneration !== chatGeneration || epochAtReplace !== replaceEpoch) return;
                     startedTokens = true;
+                    if (renderComparisonInto(textSpan, rawBuffer)) {
+                      scrollToBottom();
+                      return;
+                    }
                     textSpan.innerText = '';
                     return typeTextSmoothly(textSpan, event.text, requestGeneration, () => epochAtReplace !== replaceEpoch);
                   });
